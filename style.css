@@ -1,0 +1,512 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.pgp{
+    width: 550px;
+    height: 635px;
+}
+
+.pgp2{
+    background-image: url(b2.jpg);
+    width: 550px;
+    height: 635px;
+}
+
+
+
+.btnstart{
+    display: grid;
+    place-items: center;
+}
+
+.startbtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px; /* Ajusta el valor según la mitad de la altura del elemento */
+    margin-left: -50px; /* Ajusta el valor según la mitad del ancho del elemento */
+    background-color: white; 
+    border: 2px solid #04AA6D;
+    font-size: 20px;
+    border: none; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+
+}
+
+.startbtn:hover {
+    background-color: #46a049;
+    color: white;
+}
+
+.title{
+    background-color: #ede0e0;
+    padding: 14px 28px; 
+     font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    color:rgb(224, 87, 87);
+}
+
+.titleview{
+    background-color: #ede0e0;
+    padding: 14px 28px; 
+     font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-optical-sizing: auto;
+font-size: 24px;
+    font-style: normal;
+    color:rgb(224, 87, 87);
+}
+
+.titleviewe{
+    background-color: #ede0e0;
+    padding: 14px 28px; 
+     font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-optical-sizing: auto;
+    font-size: 60px;
+    font-style: normal;
+    color:rgb(224, 87, 87);
+    text-align: center;
+}
+
+
+
+ .luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.body{
+    background-color: #EDE8E0;
+    padding: 14px 28px; 
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+} 
+
+.bodyd{
+    background-color: #EDE8E0;
+    padding: 14px 28px; 
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: red;
+} 
+
+.message2{
+    display: flex;
+}
+
+.hey{
+  padding: 10px;  
+  background-color: #EDE8E0;
+  padding: 14px 28px; 
+  font-family: "Poiret One", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+}
+
+.bodyv{
+    padding: 10px;  
+    background-color: #EDE8E0;
+    padding: 14px 28px; 
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+text-align: center;
+}
+
+
+
+.flork{
+    width: 250%;
+    margin-top: -210px;
+
+}
+
+
+.central2{
+    display: grid;
+    place-items: center;
+}
+
+.heart{
+    width: 100px;
+    background-image: url(/img/cora.png);
+}
+
+.btn{
+
+    border: none;
+        cursor: pointer;
+        background-color: transparent;
+   
+    
+}
+
+
+
+@import url("http://fix.cl/test/carta/css/fontello.css");
+
+::selection
+{
+    background: hsla(0,84%,33%,1);
+    color: #fff;
+    text-shadow:none;
+}
+
+::-moz-selection
+{
+    background: hsla(0,84%,33%,1);
+    color: #fff;
+    text-shadow:none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+  background: #8c8c8c;
+    background: -moz-radial-gradient(center, ellipse cover,  #8c8c8c 0%, #2b2b2b 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#8c8c8c), color-stop(100%,#2b2b2b));
+    background: -webkit-radial-gradient(center, ellipse cover,  #8c8c8c 0%,#2b2b2b 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #8c8c8c 0%,#2b2b2b 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #8c8c8c 0%,#2b2b2b 100%);
+    background: radial-gradient(ellipse at center,  #8c8c8c 0%,#2b2b2b 100%);
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+#perspectiva{
+    position:absolute;
+    top:150px;
+    left:50%;
+    margin-left: -200px;
+    -webkit-perspective:800;
+    -moz-perspective:800;
+    -o-perspective:800;
+    -ms-perspective:800;
+    perspective:800;
+}
+
+#contenedor{
+  border-radius: 5px;
+    width: 400px;
+    height: 280px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+
+p{
+    color: #04AA6D;
+}
+.cara{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    backface-visibility:hidden;
+}
+
+.cara h1{
+    cursor: pointer;
+    color: hsla(0,0%,20%,1);
+    text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
+    font-family: 'Bad Script', cursive;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.frontal{
+    background-color: rgb(245, 119, 119);
+    z-index: 20;
+    font-size: 17px;
+}
+
+.trasera{
+    background-color: rgb(245, 119, 119);
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    -o-transform:rotateY(-180deg);
+    -ms-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+}
+
+
+
+
+
+#abrir{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 0;
+    width: 80px;
+    border-top: 175px solid rgb(245, 119, 119);
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    -webkit-transform-origin:center top;
+    -moz-transform-origin:center top;
+    -o-transform-origin:center top;
+    -ms-transform-origin:center top;
+    transform-origin:center top;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    z-index: 10;
+}
+
+#partes{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 0;
+    height: 0;
+    border-left: 200px solid rgb(245, 119, 119);
+    border-top: 140px solid transparent;
+    border-bottom: 140px solid transparent;
+    z-index: 5;
+}   
+
+#partes:after{
+    content: "";
+    position: absolute;
+    bottom:-140px;
+    left:-200px;
+    height: 0;
+    width: 80px;
+    border-bottom: 175px solid rgb(245, 119, 119);
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+}
+
+#partes:before{
+    content: "";
+    position: absolute;
+    top:-140px;
+    right:-200px;
+    width: 0;
+    height: 0;
+    border-right: 200px solid rgb(245, 119, 119) ;
+    border-top: 140px solid transparent;
+    border-bottom: 140px solid transparent;
+}
+
+#carta{
+    background-image: url(CORAME.jpg);
+    background-size:cover; 
+    box-shadow: 0px 2px 5px hsla(0,0%,10%,1);
+    border-radius: 5px;
+    position: absolute;
+    top:3px;
+    left:0;
+    margin: 0 0 0 5px;
+    width: 390px;
+    height: 180px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+#carta p:first-of-type{
+    color: hsla(0,0%,20%,1);
+    text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 45px;
+
+}
+
+#carta p:last-of-type{
+    color: hsla(0,0%,20%,1);
+    text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
+    font-size: 0.75em;
+    line-height:1.45em;
+    margin: 0 40px;
+       margin-top: 110px;  
+       cursor: pointer;
+       color: hsla(0,0%,20%,1);
+       text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
+       font-family: 'Bad Script', cursive;
+       font-size: 1em;
+       text-align: center;
+
+}
+
+
+
+a{
+    color: red;
+}
+.icon-cancel{
+    cursor: pointer;
+    color: hsla(0,0%,70%,1);
+    font-size: 0.8em;
+    float: right;
+    text-align: center;
+    text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
+    margin: 5px;
+}
+
+.icon-cancel:hover, .cara h1:hover{
+    color: hsla(0,84%,33%,1);
+}
+
+svg{
+    margin: 30px 0 10px 180px;
+}
+
+
+
+
+/******************************************************* animación */
+
+.rotar_{
+    transition-delay: 10s;
+}
+
+.rotar,
+.tapa,
+.rotar_,
+.tapa_,
+.bajarTop,
+.subirTop{
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -ms-transition: all 1s;
+  transition: all 1s;
+ 
+}
+
+.bajarTop_,
+.subirTop_{
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.rotar_,
+.bajarTop,
+.subirTop{
+  -webkit-transition-delay: 1s;
+  -moz-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  -ms-transition-delay: 1s;
+  transition-delay: 1s;
+}
+
+.tapa,
+.tapa_{
+  -webkit-transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  -ms-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.rotar{
+  -webkit-transform: rotate3d(0,1,0,180deg);
+  -moz-transform: rotate3d(0,1,0,180deg);
+  -o-transform: rotate3d(0,1,0,180deg);
+  -ms-transform: rotate3d(0,1,0,180deg);
+  transform: rotate3d(0,1,0,180deg);
+}
+
+.tapa{
+  -webkit-transform: rotate3d(10,0,0,180deg);
+  -moz-transform: rotate3d(10,0,0,180deg);
+  -o-transform: rotate3d(10,0,0,180deg);
+  -ms-transform: rotate3d(10,0,0,180deg);
+  transform: rotate3d(10,0,0,180deg);
+    z-index: 0 !important;
+}
+
+.rotar_{
+  -webkit-transform: rotate3d(0,10,0,0deg);
+  -moz-transform: rotate3d(0,10,0,0deg);
+  -o-transform: rotate3d(0,10,0,0deg);
+  -ms-transform: rotate3d(0,10,0,0deg);
+  transform: rotate3d(0,50,0,0deg); 
+}
+
+.tapa_{
+  -webkit-transform: rotate3d(1,0,0,0deg);
+  -moz-transform: rotate3d(1,0,0,0deg);
+  -o-transform: rotate3d(1,0,0,0deg);
+  -ms-transform: rotate3d(1,0,0,0deg);
+  transform: rotate3d(1,0,0,0deg);
+    z-index: 10 !important;
+}
+
+.bajarTop{
+  -webkit-transform: translateY(-600px);
+  -moz-transform: translateY(-600px);
+  -o-transform: translateY(-600px);
+  -ms-transform: translateY(-600px);
+  transform: translateY(-600px);
+}
+
+.subirTop{
+  -webkit-transform: translateY(500px);
+  -moz-transform: translateY(500px);
+  -o-transform: translateY(500px);
+  -ms-transform: translateY(500px);
+  transform: translateY(500px);
+}
+
+.bajarTop_,
+.subirTop_{
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+.pviewmore{
+  font-size: 500px;
+}
